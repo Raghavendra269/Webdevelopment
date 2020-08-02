@@ -1,0 +1,107 @@
+body {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    color: #ddd7d7;
+    background-color: #290157;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #610303;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #c06d00;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #120227;
+    font-family: 'Times New Roman', cursive;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #a52d2d;
+}
+
+#nav-list {
+    background-color: #0f78b4;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #202020;
+    background-color: #0d0344;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+h2{
+    font-family: cursive;
+    font-weight: bold;
+    color: crimson;
+}
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #065238;
+    margin-bottom: 60px;
+}
+
+
+/** END HOME PAGE **/
